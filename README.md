@@ -28,4 +28,27 @@ double price = 8.99;
 std::cout << "Hello\n";
 
 std::cout << "Hello again\n";
-g ++ hello.cppstd::cout << "Hello World!\n"; 
+g ++ hello.cppstd :: cout << "Hello World! \ n"؛ 
+buildscript {
+
+    repositories {
+
+        google()
+
+        mavenCentral()
+
+    }
+
+}
+
+allprojects {
+
+    repositories {
+
+        google()
+
+        mavenCentral()
+
+    }
+
+}
