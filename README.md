@@ -7,8 +7,28 @@
 int tip = 0;
 
  
+dependencies {
 
-std::cout << "Enter amount: ";
+  implementation 'com.google.android.gms:play-services-ads:20.5.0'
+
+  // For apps targeting Android 12, add WorkManager dependency.
+
+  constraints {
+
+    implementation('androidx.work:work-runtime:2.7.0') {
+
+        because '''androidx.work:work-runtime:2.1.0 pulled from play-services-ads
+
+                   has a bug using PendingIntent without FLAG_IMMUTABLE or
+
+                   FLAG_MUTABLE and will fail in apps targeting S+.'''
+
+    }
+
+  }
+
+}
+std :: cout << "أدخل المبلغ:"؛
 
 std::cin >> tip;
 
@@ -38,7 +58,13 @@ buildscript {
         mavenCentral()
 
     }
+<application
 
+    android:name="com.google.android.gms.example.appopendemo.MyApplication" ...>
+
+...
+
+</application>
 }
 
 allprojects {
