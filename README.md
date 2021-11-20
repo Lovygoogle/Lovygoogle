@@ -29,17 +29,3 @@ std::cout << "Hello\n";
 
 std::cout << "Hello again\n";
 g ++ hello.cppstd::cout << "Hello World!\n"; 
-
-std::cout << "I'm " << age << ".\n";
- 
- 
-
-x = 4 + 2;  // x is now 6
-
-x = 4 - 2;  // x is now 2
-
-x = 4 * 2;  // x is now 8
-
-x = 4 / 2;  // x is now 2
-
-x = 4 % 2;  // x is now 0
