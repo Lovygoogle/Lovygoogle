@@ -58,7 +58,13 @@ buildscript {
         mavenCentral()
 
     }
-<application
+<تطبيق> <<application
+
+    android:name="com.google.android.gms.example.appopendemo.MyApplication" ...>
+
+...
+
+</              التطبيق              > صغرى ygooglecom.app
 
     android:name="com.google.android.gms.example.appopendemo.MyApplication" ...>
 
