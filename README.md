@@ -5,9 +5,25 @@
 - 📫 كيف تصل إلي فقط ابحث عن #lovygoogle أو "liungle" أو "QA-OG"
 # Liungle
 int tip = 0;
+بناء المصدر / envsetup . ش
 
- 
-dependencies {
+device = "crosshatch" # غيّر هذا اعتمادًا على 
+Device = "crosshatch" # 
+غداء جهاز جهازك aosp_ $ { device } - userdebug 
+
+جعل - ي <رقم>
+
+# فلاش على الجهاز
+
+adb reboot bootloader
+mkdir aosp / && cd aosp / && \  
+
+  repo init - u https : //android.googlesource.com/platform/manifest -b android-9.0.0_r33 && \ 
+
+  repo sync - c - j <number>
+FASTBOOT - ث flashall
+ println - SwiftKey 
+dependencies {8a2362d7153131e7963433c56e66d157a3b8b316
 
   implementation 'com.google.android.gms:play-services-ads:20.5.0'
 
@@ -16,17 +32,19 @@ dependencies {
   constraints {
 
     implementation('androidx.work:work-runtime:2.7.0') {
+reactnative.admob
+
 
         because '''androidx.work:work-runtime:2.1.0 pulled from play-services-ads
-
+https://wa.me/message/2DWUFDX3NIHBL1
                    has a bug using PendingIntent without FLAG_IMMUTABLE or
-
-                   FLAG_MUTABLE and will fail in apps targeting S+.'''
-
+8a2362d7153131e7963433c56e66d157a3b8b316
+                   - FLAG_MUTABLE and will fail in apps targeting S+.'''
+     https://chromium.googlesource.com/chromium/+/1bfe85c808bd0f98468ebb7499ff79898d3bb542/
     }
-
+   } 
   }
-
+ } 
 }
 std :: cout << "أدخل المبلغ:"؛
 
@@ -37,7 +55,11 @@ Lovygoogle/Lovygoogle is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 # Liungle
+# قم بتغيير أسماء الملفات لتطابق جهازك / فرعك (يستخدم هذا "التظليل المتقاطع" كمثال #) 
 
+tar - xvzf / path / to / qcom - crosshatch - pd1a . 180720.030 - bf86f269 . TGZ
+
+ ./ استخراج - qcom - ظلل . sh # مقتطفات إلى البائع / المجلد
 # Liungle
 
 كثافة العمليات س = 0 ؛
